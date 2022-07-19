@@ -185,4 +185,3 @@ let foot = `
 
 document.getElementById('footer').innerHTML = foot;
 document.getElementById('header').innerHTML = header;
-document.getElementById('home_page').innerHTML = home;
