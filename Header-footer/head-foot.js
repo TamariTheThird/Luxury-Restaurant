@@ -8,7 +8,7 @@ let header = `    <nav class="navbar navbar-expand-md">
 <div class="container">
   <!-- logo -->
   <div class="logo">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../HomePage/home_page.html">
       <img src="${logo}" alt="restaurant logo" />
     </a>
   </div>
@@ -28,7 +28,7 @@ let header = `    <nav class="navbar navbar-expand-md">
     <ul class="navbar-nav nav-list1 ms-auto text-uppercase">
       <!-- home -->
       <li class="nav-item">
-        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+        <a class="nav-link" aria-current="page" href="../HomePage/home_page.html">Home</a>
       </li>
       <!-- menu -->
       <li class="nav-item">
@@ -182,5 +182,7 @@ let foot = `
 </div>
 
 `;
+
 document.getElementById('footer').innerHTML = foot;
 document.getElementById('header').innerHTML = header;
+document.getElementById('home_page').innerHTML = home;
